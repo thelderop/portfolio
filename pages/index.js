@@ -12,41 +12,41 @@ export default function Home() {
 
       <main className={styles.main}>
         <Navbar />
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+        <h1>
+          <a>Thomas Helderop</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Junior developer who enjoys growing and learning!
+          {/* <code className={styles.code}>pages/index.js</code> */}
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://github.com/thelderop/Unit-1-Project" className={styles.card}>
+            <h3>Project 1 &rarr;</h3>
+            <p>A fast-paced memory game.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="https://hike-finder.herokuapp.com/" className={styles.card}>
+            <h3>Project 2 &rarr;</h3>
+            <p>Find hikes near you, and bookmark your favorites!</p>
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://shahidforchange.us/"
             className={styles.card}
           >
-            <h3>Deploy &rarr;</h3>
+            <h3>Something else &rarr;</h3>
+            <p>An app to encourage local participation in grassroots political events? Build my own API, seed it with some local Denver data. Something like that.</p>
+          </a>
+
+          <a
+            href="https://www.youtube.com/watch?v=Z_Nwm7E_iuA"
+            className={styles.card}
+          >
+            <h3>Another thing &rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              An app that allows users to search for their legislative representatives (nationally and statewide): You can see, clearly- without proedural jargon getting in the way- and in real time, exactly what your civil servants are voting on and propsing and amending and... you get the idea.
             </p>
           </a>
         </div>
@@ -54,12 +54,16 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://blacklivesmatter.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          We believe ourselves to be members of this family<br/>
+          Not just one branch on one tree<br/>
+          But a forest whose roots make up a dynasty<br/>
+          So when I call you sis or bro<br/>
+          It's not lightly<br/>
+          - Shane Koyzcan
         </a>
       </footer>
     </div>

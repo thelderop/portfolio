@@ -5,7 +5,7 @@ export default function About() {
         <div>
             <Navbar />
             <div>
-                <h1>My name is Thomas!</h1>
+                <h1>Do I even want an about page?</h1>
             </div>
         </div>
     )
