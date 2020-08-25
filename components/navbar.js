@@ -1,28 +1,29 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import {useEffect} from 'react'
+import styles from '../styles/Home.module.css'
 
 export default function Navbar() {
 
-useEffect(() => {
-    document.getElementById("home").style.color = "hotpink"
-}, [])
-
     return (
-        <div>
+        <div className={styles.navbar}>
             <Head>
                 <title>Helderop Portfolio</title>
             </Head>
             <navbar>
-                <ul>
+                <ul className={styles.ul}>
                     <li>
-                        <Link href="/">
-                            <a id="home">Home</a>
+                        <Link href="#about">
+                            <a>About Me</a>
                         </Link>
                     </li>
                     <li>
-                        <Link href="/about">
-                            <a>About</a>
+                        <Link href="#projects">
+                            <a>Projects</a>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link href="#contact">
+                            <a>Contact</a>
                         </Link>
                     </li>
                 </ul>
