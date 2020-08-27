@@ -11,12 +11,14 @@ export default function Home() {
       <Header />
       <Navbar />
       <main>
-      <h1 className={styles.name}>
-        Thomas
-      </h1>
-      <h1 className={styles.name}>
-        Helderop
-      </h1>
+        <div className={styles.nameDiv}>
+          <h1 className={styles.name}>
+            Thomas
+          </h1>
+          <h1 className={styles.name}>
+            Helderop
+          </h1>
+        </div>
         <Title />
         <Projects />
         <Contact />

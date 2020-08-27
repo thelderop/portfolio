@@ -4,6 +4,7 @@ export default function Title() {
     return (
 
         <div class="container" id="about">
+            <h3>About me</h3>
             <div class="row">
                 <div class="col">
                     <div className={styles.photo}>

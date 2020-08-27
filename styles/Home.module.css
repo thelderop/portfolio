@@ -1,10 +1,16 @@
 .body {
   background-color: #303c4c;
   color: white;
+  overflow-x: hidden;
+}
+
+.nameDiv {
+  padding-top: 6vh;
+  margin-bottom: 22.5vh;
 }
 
 .name {
-  font-size: 800%;
+  font-size: 15em;
 }
 
 /* BLM header */
@@ -60,6 +66,8 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  position: fixed;
+  top: 0;
 }
 
 .li,
@@ -81,6 +89,7 @@
 
 .contact {
   text-align: center;
+  overflow: hidden;
 }
 
 /* Title section */
