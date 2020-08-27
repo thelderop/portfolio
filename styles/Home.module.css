@@ -17,28 +17,32 @@
   height: 35vh;
   width: 35vw;
   background-image: url('/simons-shapes.png');
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .hike {
   height: 35vh;
   width: 35vw;
   background-image: url('/hike-finder.png');
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .breaking {
     height: 35vh;
     width: 35vw;
     background-image: url('/breaking-bread.png');
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .event {
     height: 35vh;
     width: 35vw;
     background-image: url('/event-tracker.png');
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /* Navbar section */
@@ -72,8 +76,9 @@
 
 /* Title section */
 .photo {
-  height: 22vh;
-  width: 22vw;
+  height: 40vh;
+  width: 40vw;
   background-image: url('/portfolio-photo.png');
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
