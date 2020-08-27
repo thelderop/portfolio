@@ -1,65 +1,9 @@
-/* .name {
-  font-size: 20vw;
-}
+/* BLM header */
 
-.footer {
-  width: 100vw;
-  height: 10vh;
-  border-top: 1px solid #eaeaea;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background: #EEE2DC;
-  line-height: 10vh;
-}
-
-.footer img {
-  margin-left: 0.5rem;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-} */
-
-.title,
-.description {
-  text-align: left;
-}
-
-.description {
-  line-height: 1.5;
-  width: 50vw;
-}
-
-/* @media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
-} */
-
-.header {
+.header,
+.header a {
   background-color: black;
+  text-decoration: none;
   color: white;
   width: 100vw;
   text-align: center;
@@ -67,34 +11,69 @@
   line-height: 10vh;
 }
 
-.body {
-  background-color: #9DF9EF;
+/* Project section */
+
+.simon {
+  height: 22vh;
+  width: 22vw;
+  background-image: url('/simons-shapes.png');
+  background-size: cover;
 }
 
-.projects {
-  width: 50vw;
+.hike {
+  height: 22vh;
+  width: 22vw;
+  background-image: url('/hike-finder.png');
+  background-size: cover;
 }
+
+.breaking {
+    height: 22vh;
+    width: 22vw;
+    background-image: url('/breaking-bread.png');
+    background-size: cover;
+}
+
+.event {
+    height: 22vh;
+    width: 22vw;
+    background-image: url('/event-tracker.png');
+    background-size: cover;
+}
+
+/* Navbar section */
 
 .ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.navbar {
-  background-color: #9DF9EF;
+.li,
+.li a {
+  display: inline;
+  color: black;
+  padding: 0.5vw;
+  text-decoration: none;
 }
 
-.navbar a {
-  float: left;
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
 }
 
-.photo {
-  width: 40vw;
-  height: 40vh;
+/* Contact section */
+
+.contact {
   text-align: center;
-  float: right;
 }
 
-.photo img {
-  max-width: 100%;
-  max-height: 100%;
+/* Title section */
+.photo {
+  height: 22vh;
+  width: 22vw;
+  background-image: url('/portfolio-photo.png');
+  background-size: cover;
 }
