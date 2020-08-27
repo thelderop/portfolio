@@ -3,13 +3,20 @@ import Navbar from '../components/navbar.js'
 import Title from '../components/title.js'
 import Projects from '../components/projects.js'
 import Contact from '../components/contact.js'
+import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div id="body">
+    <div className={styles.body}>
       <Header />
+      <Navbar />
       <main>
-        <Navbar />
+      <h1 className={styles.name}>
+        Thomas
+      </h1>
+      <h1 className={styles.name}>
+        Helderop
+      </h1>
         <Title />
         <Projects />
         <Contact />

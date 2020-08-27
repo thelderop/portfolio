@@ -12,6 +12,11 @@ export default function Navbar() {
             <navbar>
                 <ul className={styles.ul}>
                     <li className={styles.li}>
+                        <Link href="#about">
+                            <a>About me</a>
+                        </Link>
+                    </li>
+                    <li className={styles.li}>
                         <Link href="#projects">
                             <a>Projects</a>
                         </Link>
