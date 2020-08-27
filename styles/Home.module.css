@@ -2,6 +2,7 @@
   background-color: #303c4c;
   color: white;
   overflow-x: hidden;
+  font-family: 'Barlow', sans-serif;
 }
 
 .nameDiv {
@@ -68,6 +69,7 @@
   padding: 0;
   position: fixed;
   top: 0;
+  z-index: 100;
 }
 
 .li,
