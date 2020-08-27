@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 export default function Title() {
     return (
 
-        <div class="container">
+        <div class="container" id="about">
             <div class="row">
                 <div class="col">
                     <div className={styles.photo}>
