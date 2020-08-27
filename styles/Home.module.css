@@ -14,29 +14,29 @@
 /* Project section */
 
 .simon {
-  height: 22vh;
-  width: 22vw;
+  height: 35vh;
+  width: 35vw;
   background-image: url('/simons-shapes.png');
   background-size: cover;
 }
 
 .hike {
-  height: 22vh;
-  width: 22vw;
+  height: 35vh;
+  width: 35vw;
   background-image: url('/hike-finder.png');
   background-size: cover;
 }
 
 .breaking {
-    height: 22vh;
-    width: 22vw;
+    height: 35vh;
+    width: 35vw;
     background-image: url('/breaking-bread.png');
     background-size: cover;
 }
 
 .event {
-    height: 22vh;
-    width: 22vw;
+    height: 35vh;
+    width: 35vw;
     background-image: url('/event-tracker.png');
     background-size: cover;
 }
