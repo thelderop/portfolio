@@ -19,11 +19,14 @@ export default function Projects() {
                     </div>
                 </div>
 
-                {/* <a
-                    href="https://simons-shapes.herokuapp.com/"
-                    target="_blank"> */}
-                        <div class="col" className={styles.simon}></div>
-                {/* </a> */}
+
+                <div class="col">
+                    <a
+                        href="https://simons-shapes.herokuapp.com/"
+                        target="_blank">
+                            <div className={styles.simon}></div>
+                    </a>
+                </div>
 
             </div>
 
@@ -37,11 +40,13 @@ export default function Projects() {
                     </div>
                 </div>
 
-                {/* <a
-                    href="https://hike-finder.herokuapp.com/"
-                    target="_blank"> */}
-                        <div class="col" className={styles.hike}></div>
-                {/* </a> */}
+                <div class="col">
+                    <a
+                        href="https://hike-finder.herokuapp.com/"
+                        target="_blank">
+                            <div className={styles.hike}></div>
+                    </a>
+                </div>
 
             </div>
 
@@ -74,11 +79,14 @@ export default function Projects() {
                     </div>
                 </div>
 
-                {/* <a
-                    href="https://quirky-dubinsky-cc4c26.netlify.app/"
-                    target="_blank"> */}
-                        <div class="col" className={styles.event}></div>
-                {/* </a> */}
+                <div class="col">
+                    <a
+                        href="https://quirky-dubinsky-cc4c26.netlify.app/"
+                        target="_blank">
+                            <div className={styles.event}></div>
+                    </a>
+
+                </div>
 
             </div>
         </div>
