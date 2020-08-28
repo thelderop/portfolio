@@ -5,6 +5,8 @@
   font-family: 'Barlow', sans-serif;
 }
 
+/* Name section */
+
 .nameDiv {
   padding-top: 6vh;
   margin-bottom: 22.5vh;
@@ -59,6 +61,12 @@
     background-image: url('/event-tracker.png');
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.simon:hover,
+.hike:hover,
+.event:hover {
+  border: thin solid white;
 }
 
 /* Navbar section */
