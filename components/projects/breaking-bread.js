@@ -18,7 +18,13 @@ export default function BreakingBread() {
                 <a
                     href="https://github.com/thelderop/middleground"
                     target="_blank">
-                        <div className={styles.breaking}></div>
+                        <div className={styles.breaking}>
+                            <div className={styles.overlay}>
+                                <div>
+                                    Proof-of-concept!
+                                </div>
+                            </div>
+                        </div>
                 </a>
 
             </div>

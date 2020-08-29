@@ -60,6 +60,8 @@
     background-image: url('/breaking-bread.png');
     background-size: contain;
     background-repeat: no-repeat;
+    text-align: center;
+    line-height: 35vh;
 }
 
 .event {
@@ -87,7 +89,8 @@
   font-size: xx-large;
 }
 
-.event:hover .overlay {
+.event:hover .overlay,
+.breaking:hover .overlay {
   opacity: 1;
 }
 
