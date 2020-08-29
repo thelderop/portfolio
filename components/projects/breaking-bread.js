@@ -15,9 +15,12 @@ export default function BreakingBread() {
             </div>
 
             <div class="col">
-                <div className={styles.breaking}>
+                <a
+                    href="https://github.com/thelderop/middleground"
+                    target="_blank">
+                        <div className={styles.breaking}></div>
+                </a>
 
-                </div>
             </div>
 
         </div>

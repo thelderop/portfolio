@@ -93,6 +93,7 @@
 
 .simon:hover,
 .hike:hover,
+.breaking:hover,
 .event:hover {
   border: thin solid white;
 }
