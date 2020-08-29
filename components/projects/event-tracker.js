@@ -16,7 +16,13 @@ export default function EventTracker() {
                 <a
                     href="https://quirky-dubinsky-cc4c26.netlify.app/"
                     target="_blank">
-                        <div className={styles.event}></div>
+                        <div className={styles.event}>
+                            <div className={styles.overlay}>
+                                <div>
+                                    Work-in-progress!
+                                </div>
+                            </div>
+                        </div>
                 </a>
             </div>
 

@@ -68,10 +68,27 @@
     background-image: url('/event-tracker.png');
     background-size: contain;
     background-repeat: no-repeat;
+    text-align: center;
+    line-height: 35vh;
 }
 
-.event:hover {
-  opacity: 0.5;
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  text-decoration: none;
+  color: black;
+  font-size: xx-large;
+}
+
+.event:hover .overlay {
+  opacity: 1;
 }
 
 .simon:hover,
