@@ -5,6 +5,13 @@
   font-family: 'Barlow', sans-serif;
 }
 
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
 /* Name section */
 
 .nameDiv {
@@ -63,6 +70,10 @@
     background-repeat: no-repeat;
 }
 
+.event:hover {
+  opacity: 0.5;
+}
+
 .simon:hover,
 .hike:hover,
 .event:hover {
@@ -86,13 +97,7 @@
   color: white;
   padding: 0.5vw;
   text-decoration: none;
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+  background-color: #666666;
 }
 
 /* Contact section */

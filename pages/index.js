@@ -2,6 +2,7 @@ import Head from 'next/head'
 
 import Header from '../components/header.js'
 import Navbar from '../components/navbar.js'
+import Name from '../components/name.js'
 import Title from '../components/title.js'
 import Projects from '../components/projects.js'
 import Contact from '../components/contact.js'
@@ -18,14 +19,7 @@ export default function Home() {
       <Header />
       <Navbar />
       <main>
-        <div className={styles.nameDiv}>
-          <h1 className={styles.name}>
-            Thomas
-          </h1>
-          <h1 className={styles.name}>
-            Helderop
-          </h1>
-        </div>
+        <Name />
         <Title />
         <Projects />
         <Contact />

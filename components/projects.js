@@ -1,4 +1,7 @@
-import styles from '../styles/Home.module.css'
+import SimonsShapes from '../components/projects/simons-shapes.js'
+import HikeFinder from '../components/projects/hike-finder.js'
+import BreakingBread from '../components/projects/breaking-bread.js'
+import EventTracker from '../components/projects/event-tracker.js'
 
 export default function Projects() {
     return (
@@ -10,85 +13,11 @@ export default function Projects() {
                 </h2>
             </div>
 
-            <div class="row">
+            <SimonsShapes />
+            <HikeFinder />
+            <BreakingBread />
+            <EventTracker />
 
-                <div class="col">
-                    <div>
-                        <h3>Simon's Shapes</h3>
-                        <p>A fast-paced pattern-recognition and memory game. Built with vanilla Javascript.</p>
-                    </div>
-                </div>
-
-
-                <div class="col">
-                    <a
-                        href="https://simons-shapes.herokuapp.com/"
-                        target="_blank">
-                            <div className={styles.simon}></div>
-                    </a>
-                </div>
-
-            </div>
-
-            <div class="row">
-
-                <div class="col">
-                    <div>
-                        <h3>Hike Finder</h3>
-                        <p>Find and save hikes near you.
-                            Built with EJS, NodeJS, Postgres SQL database, with calls to the Hiking Project API</p>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <a
-                        href="https://hike-finder.herokuapp.com/"
-                        target="_blank">
-                            <div className={styles.hike}></div>
-                    </a>
-                </div>
-
-            </div>
-
-            <div class="row">
-
-                <div class="col">
-                    <div>
-                        <h3>Breaking Bread</h3>
-                        <p>Breaking Bread is a hackathon proof of concept that was developed by a team of UX designers and developers.
-                            It is a web application where users with different political affiliations can enter chat rooms
-                            to discuss articles they read prior to entering chat room with goal of finding compromise between the two users.
-                            Built with NextJs and Javascript.</p>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div className={styles.breaking}>
-
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="row">
-                <div class="col">
-                    <div>
-                        <h3>Event Tracker</h3>
-                        <p>An app to find and save to your personal calendar upcoming events in your area.
-                            Built with ReactJS, MongoDB, and Bootstrap.</p>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <a
-                        href="https://quirky-dubinsky-cc4c26.netlify.app/"
-                        target="_blank">
-                            <div className={styles.event}></div>
-                    </a>
-
-                </div>
-
-            </div>
         </div>
     )
 }
