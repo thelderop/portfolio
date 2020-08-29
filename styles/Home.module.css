@@ -44,6 +44,7 @@
   background-image: url('/simons-shapes.png');
   background-size: contain;
   background-repeat: no-repeat;
+  margin: auto;
 }
 
 .hike {
@@ -52,6 +53,7 @@
   background-image: url('/hike-finder.png');
   background-size: contain;
   background-repeat: no-repeat;
+  margin: auto;
 }
 
 .breaking {
@@ -62,6 +64,7 @@
     background-repeat: no-repeat;
     text-align: center;
     line-height: 35vh;
+    margin: auto;
 }
 
 .event {
@@ -72,6 +75,7 @@
     background-repeat: no-repeat;
     text-align: center;
     line-height: 35vh;
+    margin: auto;
 }
 
 .overlay {
