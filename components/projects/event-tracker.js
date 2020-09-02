@@ -7,8 +7,11 @@ export default function EventTracker() {
             <div class="col">
                 <div>
                     <h3>Event Tracker</h3>
-                    <p>An app to find and save to your personal calendar upcoming events in your area.
-                        Built with ReactJS, MongoDB, and Bootstrap.</p>
+                    <p>This was my first collaborative project. Working with three other General Assembly student engineers,
+                        we decided to build something in anticipation of the end of the pandemic in America. Users can search for events in their area,
+                        and save events to their personal calendar.
+                    </p>
+                    <p>Built with ReactJS, MongoDB, and Bootstrap, with calls to the Eventful API.</p>
                 </div>
             </div>
 

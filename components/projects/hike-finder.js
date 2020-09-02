@@ -7,8 +7,12 @@ export default function HikeFinder() {
             <div class="col">
                 <div>
                     <h3>Hike Finder</h3>
-                    <p>Find and save hikes near you.
-                        Built with EJS, NodeJS, Postgres SQL database, with calls to the Hiking Project API</p>
+                    <p>I deeply enjoy the outdoors-
+                        so what better idea for a second project than to build an app to help me find nearby hikes?
+                        Hike Finder allows users to search for hikes within their provided area.
+                        Additionally, users can save their favorite hikes to their profile.
+                    </p>
+                    <p>Built with EJS, NodeJS, Postgres SQL database, with calls to the Hiking Project API</p>
                 </div>
             </div>
 

@@ -140,3 +140,18 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+.resume {
+  text-decoration: none;
+  color: white;
+}
+
+.resume:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.links {
+  margin-left: 1vw;
+  margin-bottom: 1px;
+}

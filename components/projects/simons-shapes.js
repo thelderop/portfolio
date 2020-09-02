@@ -7,7 +7,10 @@ export default function SimonsShapes() {
             <div class="col">
                 <div>
                     <h3>Simon's Shapes</h3>
-                    <p>A fast-paced pattern-recognition and memory game. Built with vanilla Javascript.</p>
+                    <p>A fast-paced pattern-recognition and memory game.
+                        For my first ever project, I wanted to create something unique, challenging, and with lots of replay value.
+                    </p>
+                    <p>Built with vanilla Javascript.</p>
                 </div>
             </div>
 
