@@ -15,12 +15,12 @@ export default function Title() {
                 <div class="col">
                     <div>
                         <p>
-                            I am a Denver-based software engineer.
+                            I am a Denver-based software engineer, open to positions in any location.
                             After several years of client- and customer-facing roles in the tech industry,
                             I decided to take the plunge and pursue my passion for coding.
                         </p>
                         <p>
-                            I'm passionate about local political organizing, and as I grow as an engineer,
+                            I'm passionate about local political organizing and healthcare for all Americans, and as I grow as an engineer,
                             I hope to apply my skillset in an impactful way that affects real change in people's lives.
                         </p>
                         <p>
